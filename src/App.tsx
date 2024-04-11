@@ -1,16 +1,12 @@
-import React from 'react'
-import './App.css';
-import MapComponent from './MapComponent';
-
+import "./App.css";
+import MapComponent from "./MapComponent";
 
 function App() {
   return (
     <>
-     
-      <h1>Vite + React</h1>
-     
+      <h1>Open layers Assignment</h1>
+
       <MapComponent />
-     
     </>
   );
 }
