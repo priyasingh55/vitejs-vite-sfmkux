@@ -9,7 +9,7 @@ import Feature from "ol/Feature";
 import Point from "ol/geom/Point";
 import { Style, Fill, Stroke, Circle } from "ol/style";
 
-const MapComponent = () => {
+export default function MapComponent() {
   const mapRef = useRef<any>();
   const [map, setMap] = useState<any>(null);
   const [draw, setDraw] = useState<Draw | null>(null);
@@ -133,6 +133,4 @@ const MapComponent = () => {
       )}
     </div>
   );
-};
-
-export default MapComponent;
+}
